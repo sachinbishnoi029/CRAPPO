@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.menulist.show {
+    right: 0;
+}
+
+.menuicon.show .bar:nth-child(1) {
+    transform: translateY(5px) rotate(45deg);
+}
+
+.menuicon.show .bar:nth-child(2) {
+    display: none;
+}
+
+.menuicon.show .bar:nth-child(3) {
+    transform: translateY(-5px) rotate(-45deg);
+}
+/* *{
+    border:1px solid red !important;
+} */
